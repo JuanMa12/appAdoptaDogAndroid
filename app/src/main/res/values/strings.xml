@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">AdoptaDog</string>
+
+
+    <string-array name="titulos">
+        <item>INICIO</item>
+        <item>PERROS</item>
+        <item>COMPARTE</item>
+        <item>MAPA</item>
+        <item>SIGUENOS</item>
+        <item>CONTACTAME</item>
+    </string-array>
+
+    <array name="iconos">
+        <item>@drawable/home</item>
+        <item>@drawable/dog</item>
+        <item>@drawable/comparte</item>
+        <item>@drawable/mapa</item>
+        <item>@drawable/siguenos</item>
+        <item>@drawable/contactanos</item>
+    </array>
+
+    <string name="itemuno">Inicio</string>
+    <string name="itemdos">Perros</string>
+    <string name="itemtres">Comparte</string>
+    <string name="itemcuatro">Mapa</string>
+    <string name="itemcinco">Siguenos</string>
+    <string name="itemseis">Contactame</string>
+
+    <string name="drawer_open">Abrir navigation drawer</string>
+    <string name="drawer_close">Cerrar navigation drawer</string>
+    <string name="headlines">Encabezados de</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="descripcion">Esta aplicacion nacio con la idea de facilitar la opcion de adoptar
+        o apadrinar un perro. Aca podras buscar la ubicacion de nuestras sedes, como tambien podra
+        ver todos los perros disponibles en ellas.</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Salir</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="correo">Escribe tus datos para que podamos contactarte.</string>
+    <string name="tomafoto">Tomale una foto a tu perro(a) para que la puedas compartir en tus redes sociales.</string>
+    <string name="compartaapp">O si desea ingrese a la red social que mas utilize:</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="borton1">Adoptar</string>
+    <string name="borton2">Apradinar</string>
+    <string name="compartirfoto">Presiona sobre la imagen para que la puedas compartir en tu red social favorita.</string>
+
+    <string name="com">Las siguientes direcciones son los lugares en los cuales podras llevar a tu mascota a comer:</string>
+    <string name="dir1">Carrera 13 entre 93A y 93B</string>
+    <string name="dir2">Avenida Calle 63, Chapinero Central</string>
+    <string name="dir3">Parque Simon Bolivar Bogotá</string>
+    <string name="dir4">Carrera. 37 #24-67-Corferias</string>
+    <string name="dir5">Carrera. 6 #15-88- Museo del Oro</string>
+    <string name="dir6">Casa de Nariño-Bogotá</string>
+    <string name="dir7">Centro Comercial Salitre Plaza</string>
+    <string name="map">Para conocer la localizacion de esta direcciones presiona el siguiente icono para que te redireccione al mapa.</string>
+
+</resources>

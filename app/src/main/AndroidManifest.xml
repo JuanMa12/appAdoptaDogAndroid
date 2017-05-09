@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.juan.adoptadogv16" >
+
+    <permission
+        android:name="com.example.juan.adoptadogv16.permission.MAPS_RECEIVED"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.juan.adoptadogv16.permission.MAPS_RECEIVED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/adoptadog"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Navigation.My"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Items.Inicio"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Items.Perros"
+            android:label="@string/itemdos" >
+        </activity>
+        <activity
+            android:name=".Items.Comparte"
+            android:label="@string/itemtres" >
+        </activity>
+        <activity
+            android:name=".Items.Siguenos"
+            android:label="@string/itemcinco" >
+        </activity>
+        <activity
+            android:name=".Items.Contactame"
+            android:label="@string/itemseis" >
+        </activity>
+        <activity
+            android:name=".Items.MapsActivity"
+            android:label="@string/title_activity_maps" >
+        </activity>
+        <activity
+            android:name=".Perro"
+            android:label="@string/app_name" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+
+    </application>
+
+</manifest>

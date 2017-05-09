@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/one"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:text="@string/tomafoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/three"
+        android:visibility="gone"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:text="@string/compartirfoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:onClick="tomar"
+        android:id="@+id/camera"
+        android:background="@drawable/camera"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/foto"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="250dp"
+        android:layout_height="250dp" />
+    <TextView
+        android:textColor="#58954c"
+        android:layout_marginTop="180dp"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:text="@string/compartaapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/two" />
+
+    <ImageView
+        android:onClick="redFacebook"
+        android:src="@drawable/facebook"
+        android:layout_marginTop="36dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/two"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="41dp"
+        android:layout_marginStart="41dp"
+        android:id="@+id/face" />
+    <ImageView
+        android:onClick="redTwitter"
+        android:id="@+id/twit"
+        android:layout_marginLeft="66dp"
+        android:src="@drawable/twitter"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="53dp"
+        android:layout_alignTop="@+id/face"
+        android:layout_toRightOf="@+id/face"
+        android:layout_toEndOf="@+id/face" />
+
+</RelativeLayout>

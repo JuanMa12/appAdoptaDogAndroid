@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/colorbar</item>
+    </style>
+
+    <style name="colorbar" parent="android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">#58954c</item>
+        <item name="android:listSelector">#000</item>
+    </style>
+
+</resources>

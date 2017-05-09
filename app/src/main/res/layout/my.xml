@@ -1,0 +1,25 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<FrameLayout
+    android:id="@+id/contenedor"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    </FrameLayout>
+    <ListView
+        android:id="@+id/lista_menu"
+        android:layout_width="240dp"
+        android:layout_height="fill_parent"
+        android:background="#fffbfd"
+        android:divider="#f0f1fd"
+        android:dividerHeight="1dp"
+        android:choiceMode="singleChoice"
+        android:layout_gravity="start">
+
+        </ListView>
+
+
+</android.support.v4.widget.DrawerLayout>

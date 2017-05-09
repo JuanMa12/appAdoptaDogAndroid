@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:orientation="vertical"
+    android:background="#fff"
+    tools:context="com.sena.worldskills.girardottur.Procesos.Lugar">
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/nombre"
+        android:text="@string/hello_world"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imagen"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:textColor="#58954c"
+        android:id="@+id/edad"
+        android:text="@string/hello_world"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="#58954c"
+        android:layout_marginTop="280dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tipo"
+        android:text="@string/hello_world"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        android:textColor="#58954c"
+        android:id="@+id/raza"
+        android:text="@string/hello_world"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:gravity="center"
+        android:layout_marginTop="340dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#58954c"
+        android:id="@+id/desc"
+        android:text="@string/hello_world"
+        android:textSize="16sp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
